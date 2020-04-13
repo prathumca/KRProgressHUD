@@ -92,7 +92,7 @@ public final class KRProgressHUD {
         fileprivate init() {}
     }
 
-    static let shared = KRProgressHUD()
+    public static let shared = KRProgressHUD()
 
     let viewAppearance = KRProgressHUDAppearance()
 
